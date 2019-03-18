@@ -21,6 +21,8 @@ h1{
   padding-top: 10px;
   padding-bottom: 15px;
   text-shadow: 4px 4px hsl(240, 0%, 10%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h3{
