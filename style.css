@@ -3,28 +3,29 @@
 html {
   background-color: 	#fbedea;
   padding: 0;
+
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(55,55,55,.5));
 }
 
 h1{
   margin-top: 0;
-  background-color: #837260;
+  background-color: hsl(240, 0%, 20%);
+  opacity:0.6;
   position: relative;
   top: 0;
   margin-bottom: 0;
   height: 75px;
   font-family: 'Signika', sans-serif;
   font-size: 75px;
+  color: hsl(219, 100%, 90%);
   padding-top: 10px;
   padding-bottom: 15px;
-  text-shadow: 2px 2px #afafaf;
-}
-
-h2{
-
+  text-shadow: 4px 4px hsl(240, 0%, 10%);
 }
 
 h3{
-  background-color: #ffabc0;
+  background-color: hsl(219, 50%, 70%);
+  opacity:0.6;
   position: relative;
   top: -25;
   margin-top: 0;
@@ -39,7 +40,6 @@ h3{
 }
 
 .nav{
-
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -52,18 +52,32 @@ h3{
 }
 ul{
   margin-left: 0;
-  padding: 0;
   width: 100%;
+  padding: 0;
   list-style-type: none;
 }
 li{
-  background-color: #837260;
-  margin-left: 0;
   width: 20%;
+  margin-left: 0;
+  padding: 0;
   float: left;
   text-align: center;
-  padding-top: .5%;
-  padding-bottom: .5%;
+}
+
+a{
+  display: block;
+  background-color:  hsl(219, 40%, 70%);
+  text-decoration: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+a:link, a:visited{
+  color: black;
+}
+
+a:hover{
+  background-color: hsl(219, 30%, 50%);
 }
 
 
